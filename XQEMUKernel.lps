@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="XQEMUKernel.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="58" Y="9"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/hypervisorhandler.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="HypervisorHandler"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="16"/>
+        <CursorPos X="3" Y="9"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/virtualdevice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="VirtualDevice"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="11"/>
+        <CursorPos X="3" Y="9"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/virtualmachine.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="VirtualMachine"/>
+        <EditorIndex Value="12"/>
+        <TopLine Value="40"/>
+        <CursorPos X="23" Y="51"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/virtualcpu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="VirtualCPU"/>
+        <EditorIndex Value="10"/>
+        <CursorPos X="63" Y="48"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/virtualram.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="VirtualRAM"/>
+        <EditorIndex Value="13"/>
+        <CursorPos X="54" Y="14"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/deviceinterface.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DeviceInterface"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="19"/>
+        <CursorPos X="24" Y="29"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/storageinterface.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="StorageInterface"/>
+        <EditorIndex Value="2"/>
+        <CursorPos Y="14"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/scsiinterface.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SCSIInterface"/>
+        <EditorIndex Value="9"/>
+        <CursorPos X="4" Y="12"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/ideinterface.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="IDEInterface"/>
+        <EditorIndex Value="6"/>
+        <CursorPos X="11" Y="8"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/nvmeinterface.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="NVMeInterface"/>
+        <EditorIndex Value="7"/>
+        <CursorPos X="4" Y="41"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/satainterface.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SATAInterface"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="21"/>
+        <CursorPos X="4" Y="41"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/qemuhandler.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="QEMUHandler"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="128"/>
+        <CursorPos X="36" Y="142"/>
+        <UsageCount Value="40"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/qemumachine.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="QEMUMachine"/>
+        <EditorIndex Value="5"/>
+        <CursorPos X="19" Y="10"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="hypervisorhandler.pas"/>
+        <UnitName Value="HypervisorHandler"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7"/>
+        <CursorPos X="25" Y="7"/>
+        <UsageCount Value="17"/>
+      </Unit>
+      <Unit>
+        <Filename Value="qemu.pas"/>
+        <UnitName Value="QEMU"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="15" Y="8"/>
+        <UsageCount Value="17"/>
+      </Unit>
+      <Unit>
+        <Filename Value="virtualdevice.pas"/>
+        <UnitName Value="VirtualDevice"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="66" Y="10"/>
+        <UsageCount Value="17"/>
+      </Unit>
+      <Unit>
+        <Filename Value="virtualmachine.pas"/>
+        <UnitName Value="VirtualMachine"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="5" Y="57"/>
+        <UsageCount Value="17"/>
+      </Unit>
+      <Unit>
+        <Filename Value="thypervisorhandler.pas"/>
+        <UnitName Value="Hypervisor"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="37" Y="8"/>
+        <UsageCount Value="17"/>
+      </Unit>
+      <Unit>
+        <Filename Value="virtualcpu.pas"/>
+        <UnitName Value="VirtualCPU"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="5" Y="27"/>
+        <UsageCount Value="17"/>
+      </Unit>
+      <Unit>
+        <Filename Value="virtualram.pas"/>
+        <UnitName Value="VirtualRAM"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3"/>
+        <CursorPos X="5" Y="27"/>
+        <UsageCount Value="17"/>
+      </Unit>
+      <Unit>
+        <Filename Value="deviceinterface.pas"/>
+        <UnitName Value="DeviceInterface"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2"/>
+        <CursorPos X="5" Y="28"/>
+        <UsageCount Value="17"/>
+      </Unit>
+      <Unit>
+        <Filename Value="storageinterface.pas"/>
+        <UnitName Value="StorageInterface"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="22" Y="9"/>
+        <UsageCount Value="17"/>
+      </Unit>
+      <Unit>
+        <Filename Value="scsiinterface.pas"/>
+        <UnitName Value="SCSIInterface"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="19"/>
+        <CursorPos X="18" Y="37"/>
+        <UsageCount Value="17"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ideinterface.pas"/>
+        <UnitName Value="IDEInterface"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="15" Y="39"/>
+        <UsageCount Value="17"/>
+      </Unit>
+      <Unit>
+        <Filename Value="nvmeinterface.pas"/>
+        <UnitName Value="NVMeInterface"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="23" Y="31"/>
+        <UsageCount Value="17"/>
+      </Unit>
+      <Unit>
+        <Filename Value="satainterface.pas"/>
+        <UnitName Value="SATAInterface"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="22" Y="8"/>
+        <UsageCount Value="17"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/qemu.pas"/>
+        <UnitName Value="QEMU"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="30" Y="73"/>
+        <UsageCount Value="19"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/tqemuhandler.pas"/>
+        <UnitName Value="TQEMUHandler"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="62"/>
+        <CursorPos Y="88"/>
+        <UsageCount Value="18"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/packages/fcl-base/src/custapp.pp"/>
+        <UnitName Value="CustApp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="53"/>
+        <CursorPos X="17" Y="65"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/devicetype.pas"/>
+        <UnitName Value="DeviceType"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="9"/>
+        <UsageCount Value="22"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="XQEMUKernel.lpr"/>
+        <Caret Line="9" Column="57"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/virtualdevice.pas"/>
+        <Caret Line="22" Column="67" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/virtualdevice.pas"/>
+        <Caret Line="34" Column="36" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/virtualdevice.pas"/>
+        <Caret Line="25" Column="38" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/virtualdevice.pas"/>
+        <Caret Line="22" Column="68" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="XQEMUKernel.lpr"/>
+        <Caret Line="9" Column="54"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/virtualdevice.pas"/>
+        <Caret Line="9" Column="32" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/virtualdevice.pas"/>
+        <Caret Line="26" Column="69" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/virtualcpu.pas"/>
+        <Caret Line="28" Column="30"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/virtualcpu.pas"/>
+        <Caret Line="8" Column="20"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/virtualcpu.pas"/>
+        <Caret Line="25" Column="32" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/virtualdevice.pas"/>
+        <Caret Line="50" Column="3" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/virtualdevice.pas"/>
+        <Caret Line="33" Column="38" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/virtualdevice.pas"/>
+        <Caret Line="29" Column="54" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/virtualcpu.pas"/>
+        <Caret Line="15" Column="12" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/virtualcpu.pas"/>
+        <Caret Line="32" Column="12" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/virtualcpu.pas"/>
+        <Caret Line="51" Column="52" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/virtualram.pas"/>
+        <Caret Line="9" Column="13"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/virtualram.pas"/>
+        <Caret Line="64" Column="4" TopLine="49"/>
+      </Position>
+      <Position>
+        <Filename Value="XQEMUKernel.lpr"/>
+        <Caret Line="9" Column="60"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/storageinterface.pas"/>
+        <Caret Line="34" Column="54" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/storageinterface.pas"/>
+        <Caret Line="18" Column="31" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/storageinterface.pas"/>
+        <Caret Line="21" Column="87" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="XQEMUKernel.lpr"/>
+        <Caret Line="9" Column="56"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/ideinterface.pas"/>
+        <Caret Line="17" Column="40" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/ideinterface.pas"/>
+        <Caret Line="26" Column="51" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/ideinterface.pas"/>
+        <Caret Line="29" Column="25" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/ideinterface.pas"/>
+        <Caret Line="26" Column="107" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/ideinterface.pas"/>
+        <Caret Line="17" Column="86" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="unit/ideinterface.pas"/>
+        <Caret Line="8" Column="46" TopLine="5"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

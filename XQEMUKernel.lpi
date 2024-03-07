@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasScaledStatement Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <Title Value="XQEMU Kernel"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+    </General>
+    <BuildModes>
+      <Item Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+    </RunParams>
+    <Units>
+      <Unit>
+        <Filename Value="XQEMUKernel.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/hypervisorhandler.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="HypervisorHandler"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/virtualdevice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="VirtualDevice"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/virtualmachine.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="VirtualMachine"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/virtualcpu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="VirtualCPU"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/virtualram.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="VirtualRAM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/deviceinterface.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DeviceInterface"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/storageinterface.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="StorageInterface"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/scsiinterface.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SCSIInterface"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/ideinterface.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="IDEInterface"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/nvmeinterface.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="NVMeInterface"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/satainterface.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SATAInterface"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/qemuhandler.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="QEMUHandler"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit/qemumachine.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="QEMUMachine"/>
+      </Unit>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="XQEMUKernel"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value=".;unit"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf3"/>
+      </Debugging>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions>
+      <Item>
+        <Name Value="EAbort"/>
+      </Item>
+      <Item>
+        <Name Value="ECodetoolError"/>
+      </Item>
+      <Item>
+        <Name Value="EFOpenError"/>
+      </Item>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
